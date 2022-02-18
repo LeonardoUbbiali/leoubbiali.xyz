@@ -22,7 +22,15 @@
   const GOOGLE_FONT = '';
   
   /* Step 5: enter any custom scripts you'd like */
-  const CUSTOM_SCRIPT = ``;
+  const CUSTOM_SCRIPT = `<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LQGGP8QPVN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LQGGP8QPVN');
+</script>`;
   
   /* CONFIGURATION ENDS HERE */
   
